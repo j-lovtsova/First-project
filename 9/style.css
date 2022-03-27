@@ -1,22 +1,105 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.img {
+  box-shadow: 10px 5px 5px rgb(99, 238, 122);
+  width: 200px;
+  margin: 0 auto;
+}
+
 body {
   font-size: 16px;
-  font-family: Roboto; sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: normal;
-  color: blue;
-  background-color: aquamarine;
+  color: rgb(22, 22, 24);
+  background-color: beige;
 }
-.info-text p{
+.info-text p {
   font-style: italic;
   font-weight: bold;
 }
-h4 {
-  color: brown;
+
+.info-text h4 {
+  margin: 20px;
+  background-color: rgb(245, 226, 226);
+}
+.card {
+  margin: 20px;
+  background-color: rgb(245, 239, 165);
 }
 
-.card {
-  border: 10px;
+.card1 {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border: 5px solid rgb(218, 194, 243);
   border-radius: 10px;
-  background-color: rgb(216, 139, 199);
+  background-color: #e0e5f0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: rgb(15, 145, 145);
+}
+.bnt {
+  background: #111;
+  padding: 15px 20px;
+  color: aqua;
+}
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  margin-bottom: 10px;
+  color: #111;
+}
+
+h3 {
+  text-align: center;
+}
+
+form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+form-row .form-group {
+  /* display: inline-block;*/
+  width: 50%;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
 }

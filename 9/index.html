@@ -9,52 +9,62 @@
     <title>Julia Lovtsova</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div class="card">
-    <div class="info">
-      <img src="pic - копия.jpg" width="50" alt="Ловцова Юлия" />
-      <div class="info-text">
-      </div>
-      <div class="card"> 
-      <h1>Ловцова Юлия</h1>
-      <p>Я уверенно осваиваю IT отасль</p>
-      <p>Я люблю заниматься спортом, а именно йогой, люблю гулять и читать.</p>
-      </div>
-    </div>
+    <div class="container">
       <div class="card">
-      <h4>Список моих социальных сетей</h4>
-      <a href="" target="blank">Instagram</a>
-      |
-      <a href="" target="blank">Telegram</a>
-      |
-      <a href="" target="blank">VK</a>
-    </div> 
-  </div> 
-</div>
-      <div class="card">
-      <h3>Как связаться со мной</h3>
-      <form>
-        <div>
-          <label for="text">Ваше имя</label>
-          <input type="text" id="text" placeholder="Пишите текст" />
+        <div class="info">
+          <img
+            src="./photo_2022-03-22_20-12-39.jpg"
+            class="img"
+            alt="Ловцова Юлия"
+          />
+          <div class="info-text"></div>
+          <div class="card">
+            <h1>Ловцова Юлия</h1>
+            <p>Осваиваю IT отрасль с нуля</p>
+            <p>
+              Люблю заниматься спортом, а именно йогой, люблю гулять и читать.
+            </p>
+          </div>
         </div>
-        <div>
-          <label for="email">Ваша почта</label>
-          <input type="email" id="email" placeholder="Введите почту" />
+        <h3>Мои увлечения:</h3>
+        <ol class="list">
+          <li>Отдых с семьёй</li>
+          <li>Йога</li>
+          <li>Чтение</li>
+        </ol>
+        <div class="card1">
+          <h4>Список моих социальных сетей</h4>
+          <a href="https://t.me/Lovka09" target="blank">Telegram</a>
+          &nbsp;
+          <a href="https://vk.com/id6743168" target="blank">VK</a>
         </div>
-        <div>
+      </div>
+      <form class="form_card1">
+        <h3>Как связаться со мной</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="text">Ваше имя</label>
+            <input type="text" id="text" placeholder="Пишите текст" />
+          </div>
+          <div class="form-group">
+            <label for="email">Ваша почта</label>
+            <input type="email" id="email" placeholder="Введите почту" />
+          </div>
+        </div>
+        <div class="form-group">
           <label for="massage">Ваше сообщение</label>
-          <br />
           <textarea
-            id="massage"
-            cols="15"
-            row="15"
+            id="message"
+            cols="25"
+            rows="10"
             placeholder="Ваше обращение"
-          </textarea>
+          ></textarea>
         </div>
-        </div>
+
         <div>
-          <button type="submit">Отправить!</button>
+          <button class="bnt" type="submit">Отправить!</button>
         </div>
       </form>
     </div>
